@@ -17,7 +17,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-
 //routes
 const list = require('./routes/index').list;
 const task = require('./routes/index').task;
